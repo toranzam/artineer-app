@@ -1,0 +1,32 @@
+
+.category-shortcut {
+  padding: 65px 16px;
+  display: flex;
+  justify-content: center;
+  .category-shortcut-inner{
+    width: 1160px;
+    .category-shortcut-items{
+      display: flex;
+      gap: 25px;
+      .category-shortcut-item{
+        flex: 1;
+        height: 130px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: #333333;
+
+        em{
+
+        }
+
+
+      }
+    }
+  }
+}
